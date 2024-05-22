@@ -14,8 +14,8 @@ endif()
 set(RASPBERRY_TOOL_PATH $ENV{RASPBERRY_TOOL_PATH})
 
 # Define the cross compiler locations
-SET(CMAKE_C_COMPILER   ${RASPBERRY_TOOL_PATH}/armv8-rpi3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc)
-SET(CMAKE_CXX_COMPILER ${RASPBERRY_TOOL_PATH}/armv8-rpi3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++)
+SET(CMAKE_C_COMPILER   ${RASPBERRY_TOOL_PATH}/arm-linux-gnueabihf-gcc)
+SET(CMAKE_CXX_COMPILER ${RASPBERRY_TOOL_PATH}/arm-linux-gnueabihf-g++)
 # Define the sysroot path for the RaspberryPi distribution in our tools folder 
 SET(CMAKE_FIND_ROOT_PATH ${RASPBERRY_TOOL_PATH}/armv8-rpi3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/)
 
