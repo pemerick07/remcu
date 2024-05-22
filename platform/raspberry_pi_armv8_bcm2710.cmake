@@ -32,7 +32,7 @@ SET(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
 include(${CMAKE_CURRENT_LIST_DIR}/vars.cmake)
 
 set(CMAKE_CXX_STANDARD 11)
-include(${REMCU_VM_PATH}/cmake/common_linux_flags.cmake)
+include(${REMCU_VM_PATH}/common_linux_flags.cmake)
 
 set(MCU_INCLUDE_MK_FILE ${REMCU_VM_PATH}/mcu_utils/linux.mk)
 
