@@ -1,3 +1,8 @@
+project(
+  remcu
+  VERSION 1.0
+  LANGUAGES CXX)
+  
 cmake_minimum_required (VERSION 3.5)
 
 if(NOT DEFINED CMAKE_TOOLCHAIN_FILE)
