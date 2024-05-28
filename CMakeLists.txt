@@ -1,9 +1,9 @@
+cmake_minimum_required (VERSION 3.5)
 project(
   remcu
   VERSION 1.0
   LANGUAGES CXX)
   
-cmake_minimum_required (VERSION 3.5)
 cmake_policy(SET CMP0153 NEW)
 
 if(NOT DEFINED CMAKE_TOOLCHAIN_FILE)
