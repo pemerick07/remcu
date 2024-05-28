@@ -3,8 +3,8 @@ project(
   remcu
   VERSION 1.0
   LANGUAGES CXX)
-  
-cmake_policy(SET CMP0153 NEW)
+
+set(CMAKE_POLICY_DEFAULT_CMP0153 NEW)
 
 if(NOT DEFINED CMAKE_TOOLCHAIN_FILE)
 	message(FATAL_ERROR " not defined toolchain file")
