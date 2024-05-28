@@ -4,6 +4,7 @@ project(
   LANGUAGES CXX)
   
 cmake_minimum_required (VERSION 3.5)
+cmake_policy(SET CMP0153 NEW)
 
 if(NOT DEFINED CMAKE_TOOLCHAIN_FILE)
 	message(FATAL_ERROR " not defined toolchain file")
